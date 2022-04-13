@@ -15,7 +15,7 @@
       font-weight: 700;
       position: absolute;
       top: 60%;
-      left: 15%;
+      left: 10%;
     }
     // display: flex;
     // -webkit-box-align: center;
@@ -79,8 +79,21 @@
   .mailing-list-img {
     .mailing-list-texts {
       p {
+        font-size: 1.5rem;
         top: 30%;
         left: 30%;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:778.98px) {
+  .mailing-list-img {
+    .mailing-list-texts {
+      p {
+        font-size: 1.3rem;
+        top: 30%;
+        left: 20%;
       }
     }
   }
