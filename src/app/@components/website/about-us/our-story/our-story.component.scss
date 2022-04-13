@@ -1,0 +1,35 @@
+.our-story-content {
+    margin-top: 4.94rem;
+  .our-story-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1.88rem;
+
+    h4 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #056ce8;
+    }
+
+    p {
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      font-size: 1rem;
+      color: #0b132b;
+      max-width: 44.4rem;
+    }
+  }
+
+  .our-story-images{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .image-section-2{
+          display: flex;
+          flex-direction: column;
+      }
+  }
+}

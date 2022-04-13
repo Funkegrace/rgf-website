@@ -1,0 +1,36 @@
+<section id="landing">
+  <div class="home-landing">
+    <swiper
+      [config]="config"
+      (swiper)="onSwiper($event)"
+      (slideChange)="onSlideChange()"
+    >
+      <ng-template swiperSlide>
+        <div class="hero hero1"></div>
+      </ng-template>
+
+      <ng-template swiperSlide>
+        <div class="hero hero2"></div>
+      </ng-template>
+
+      <ng-template swiperSlide>
+        <div class="hero hero3"></div>
+      </ng-template>
+    </swiper>
+
+    <div class="container">
+      <!-- <div class="header">
+        <app-navbar></app-navbar>
+      </div> -->
+
+      <div class="home-landing-content">
+        <h1 class="text-1">Welcome to Revent Global Finance</h1>
+        <p class="text-2">Investments | Financial Advisory | Loans</p>
+        <div class="home-landing-buttons">
+          <button class="first-button">Apply for a Loan</button>
+          <button class="second-button">Invest Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

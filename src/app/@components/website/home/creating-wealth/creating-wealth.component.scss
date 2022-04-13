@@ -1,0 +1,114 @@
+.creating-wealth-content {
+  background: #fffaf0;
+
+  .creating-wealth-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.75rem;
+
+    .text-1 {
+      font-weight: 700;
+      color: #056ce8;
+      width: 36.31rem;
+      text-align: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .text-2 {
+      width: 37.19rem;
+      font-weight: 400;
+      font-size: 1rem;
+      color: #0c142b;
+      text-align: center;
+      padding: 0rem 1rem;
+      margin-bottom: 2.81rem;
+    }
+  }
+
+  .creating-wealth-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(261px, 1fr));
+    padding-bottom: 2.75rem;
+   
+
+
+    // .salary-loans{
+    //   background-image: url("/assets/images/cw-image-1.svg");
+    // }
+
+    // .business-loans {
+    //   background-image: url("/assets/images/cw-image-2.svg");
+    // }
+
+    // .investments{
+    //   background-image: url("/assets/images/cw-image-3.svg");
+    // }
+
+    // .finance-advisory{
+    //   background-image: url("/assets/images/cw-image-4.svg");
+    // }
+
+    .image-container {
+      position: relative;
+      max-width: 19rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // flex-direction: column;
+
+      img {
+        border-radius: 5px;
+      }
+
+      .image-texts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(
+          360deg,
+          rgba(0, 0, 0, 0.82) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        height: 10.69rem;
+
+        h4 {
+          font-weight: 700;
+          color: #ffffff;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 1rem;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:991.98px) {
+  .creating-wealth-content {
+    .creating-wealth-texts {
+      .text-1 {
+        // font-size: 1.25rem;
+        width: auto;
+      }
+      .text-2 {
+        width: auto;
+      }
+    }
+
+    .creating-wealth-images {
+      // grid-template-columns: 1fr;
+      gap: 2rem;
+      justify-items: center;
+    }
+  }
+}

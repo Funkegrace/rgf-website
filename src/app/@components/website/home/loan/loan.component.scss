@@ -1,0 +1,130 @@
+.loan-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+
+  .text-1 {
+    font-weight: 700;
+    color: #056ce8;
+    width: 36.31rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
+  }
+
+  .text-2 {
+    width: 38.38rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #0c142b;
+    text-align: center;
+    padding: 0rem 1rem;
+    margin-bottom: 2.81rem;
+  }
+}
+
+.loan-form {
+  display: flex;
+  justify-content: center;
+
+  .form-repayment {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(186, 186, 186, 0.2);
+    border-radius: 11.0025px;
+    width: 59.38rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    form {
+      input[type="text"],
+      select {
+        background: #f7fafc;
+        border: 0.785891px solid #cbd5e0;
+        box-sizing: border-box;
+        border-radius: 0.25rem;
+        width: 25rem;
+        margin-bottom: 1.25rem;
+        padding: 0.75rem 1.25rem;
+        color: #4d4d4d;
+        font-weight: 700;
+        font-size: 0.75rem;
+      }
+
+      label {
+        color: #6d6d6d;
+        font-weight: 400;
+        font-size: 0.88rem;
+        margin-bottom: 0.44rem;
+      }
+    }
+
+    .monthly-repayment {
+      display: flex;
+      align-items: center;
+
+      .monthly-repayment-texts {
+        background: #056ce8;
+        border-radius: 0.69rem;
+        width: 21.88rem;
+        padding: 2.75rem 1.25rem;
+        text-align: center;
+
+        p {
+          font-weight: 700;
+          font-size: 1.125rem;
+          color: #ffffff;
+        }
+        h3 {
+          font-weight: 700;
+          font-size: 1.75rem;
+          color: #ffffff;
+          margin-top: 1.63rem;
+        }
+        button {
+          background: #ffffff;
+          padding: 11px 70px;
+          color: #056ce8;
+          border-radius: 5px;
+          border: 1px solid transparent;
+          border-color: #ffffff;
+          margin-top: 3.125rem;
+        }
+      }
+    }
+  }
+}
+
+//
+
+@media screen and(max-width:991.98px) {
+  .loan-texts {
+    .text-1 {
+      font-size: 1.3rem;
+    }
+
+    .text-2 {
+      width: auto;
+    }
+  }
+
+  .loan-form {
+    .form-repayment {
+      width: auto;
+      padding: 2.5rem 3.75rem;
+      gap: 3rem;
+
+      form {
+        input[type="text"],
+        select {
+          width: 13.88rem;
+        }
+      }
+
+      .monthly-repayment {
+        width: 16rem;
+      }
+    }
+  }
+}

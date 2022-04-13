@@ -1,0 +1,107 @@
+.financial-freedom-back {
+  background: #f6f8fe;
+  margin-top: 4rem;
+
+  .financial-freedom-content {
+    .financial-top-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2.5rem;
+      gap: 1.25rem;
+
+      .text-1 {
+        font-weight: 700;
+        font-size: 1.75rem;
+        color: #056ce8;
+        max-width: 36.63rem;
+      }
+
+      .text-2 {
+        color: #0c142b;
+        font-weight: 700;
+        font-size: 1.75rem;
+        max-width: 27.56rem;
+        text-align: center;
+
+        span {
+          color: #056ce8;
+        }
+      }
+
+      .text-3 {
+        font-weight: 700;
+        font-size: 1.125rem;
+        color: #0c142b;
+      }
+    }
+
+    .financial-flex-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(15.63rem, 1fr));
+      gap: 6.25rem;
+      padding-bottom: 2.125rem;
+    
+
+      .financial-flex-section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.1rem;
+
+        .financial-flex-section-2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 15.63rem;
+          gap: 1.88rem;
+          padding-top: 1.88rem;
+          max-height: 19.69rem;
+          text-align: center;
+
+          h5 {
+            font-weight: 700;
+            font-size: 1.125rem;
+            color: #0c142b;
+            max-width: 10.44rem;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 0.875rem;
+            color: #848484;
+            max-width: 13.44rem;
+          }
+        }
+      }
+      .financial-flex-section-1:hover {
+        box-shadow: 0px 0px 20px rgb(186 186 186 / 20%);
+        border-radius: 10px;
+        background: #ffffff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .financial-freedom-back {
+    .financial-freedom-content {
+      .financial-top-text {
+        text-align: center;
+
+        .text-1 {
+          font-size: 1.3rem;
+        }
+
+        .text-2 {
+          font-size: 1.3rem;
+        }
+
+        .text-3 {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

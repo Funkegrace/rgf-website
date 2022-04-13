@@ -1,0 +1,45 @@
+.landing-body {
+  background: linear-gradient(
+      96.65deg,
+      #ffffff 28.23%,
+      rgba(255, 255, 255, 0) 72.72%
+    ),
+    url("/assets/images/landing-page-img.svg");
+  height: 30.5rem;
+  background-position: center;
+
+  .landing-content {
+    margin-top: 8.81rem;
+    max-width: 32rem;
+    margin-left: 6.94rem;
+    // margin-bottom: 6.5rem;
+    display: flex;
+    flex-direction: column;
+
+    .landing-text-1 {
+      font-weight: 700;
+      font-size: 3.125;
+      color: #eaa12e;
+
+      span {
+        color: #056ce8;
+      }
+    }
+
+    .landing-text-2 {
+      color: #0b132b;
+      font-weight: 400;
+    }
+  }
+}
+
+@media screen and (max-width:991.98px) {
+.landing-body{
+    background-size: cover;
+
+    .landing-content{
+        justify-content: center;
+        text-align: center;
+    }
+}
+}
